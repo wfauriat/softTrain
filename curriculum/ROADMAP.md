@@ -54,9 +54,17 @@ Decoupling deploy from release. The mental model where every merge could ship. K
 Why "we'll clean it up later" doesn't mean what you think. Debt as deliberate vs. accidental, the four-quadrant model (Fowler), the cost-of-delay framing.
 - **Next:** lecture `software-engineering/07-technical-debt-as-risk.md`.
 
+### Debugging methodology
+Systematic bug-hunting: forming hypotheses, binary-search isolation, reading stack traces, using `pdb`/`ipdb`. The skill that separates engineers who find bugs from those who randomly change things until they disappear.
+- **Next:** lecture `software-engineering/NN-debugging-methodology.md`, then lab `craft/debug/exercises/01-pdb-basics/`.
+
 ---
 
 ## 2. Python deep-dives
+
+### Python production primer
+The gap between "Python that runs" and "Python someone else can maintain": project structure, type hints, logging (not `print`), error handling with custom exceptions, context managers.
+- **Next:** lecture `software-engineering/04-python-production-primer.md`, then tutorial `tutorials/python/02-python-production-primer/`.
 
 ### Typing & generics in modern Python
 `TypeVar`, `ParamSpec`, `Protocol`, `Generic[T]`, variance, the `Self` type. When to reach for `Protocol` over an ABC.
@@ -148,7 +156,7 @@ Train / val / test split, the leakage you don't notice, baselines as the most un
 
 ### Git mastery
 Rebase, interactive rebase, conflict resolution, bisect, reflog recovery, cherry-pick, stash workflows, `--fixup` + `--autosquash`.
-- **Next:** work through `craft/git/exercises/01..08` in order.
+- **Next:** lecture `software-engineering/03-git-mental-model.md` (commits as objects, refs as pointers, the index, rebase vs merge tradeoffs), then work through `craft/git/exercises/01..08` in order.
 
 ### IDE fluency (VS Code)
 The 20 keybindings to know cold; rename-symbol, extract-function, run-nearest-test, debugging a pytest, multi-cursor, multi-root workspaces.
