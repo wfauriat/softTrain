@@ -38,7 +38,8 @@ Claude writes a new markdown file in the appropriate subdirectory (`software-eng
 
 ## Topics
 
-Topics live in `curriculum/ROADMAP.md`. Two are seeded:
+Topics live in `curriculum/ROADMAP.md`. Seeded so far:
 
 - [`software-engineering/01-agile-fundamentals.md`](./software-engineering/01-agile-fundamentals.md)
+- [`software-engineering/02-senior-engineer-mindset.md`](./software-engineering/02-senior-engineer-mindset.md)
 - [`mlops/01-mlops-mindset.md`](./mlops/01-mlops-mindset.md)

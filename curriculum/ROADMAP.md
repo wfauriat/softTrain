@@ -174,21 +174,31 @@ These are the "big idea" topics. Each is a 1500-3000 word read with discussion p
 
 ### Already seeded
 - `software-engineering/01-agile-fundamentals.md`
+- `software-engineering/02-senior-engineer-mindset.md`
 - `mlops/01-mlops-mindset.md`
 
 ### Software-engineering backlog
-- 02 — The test pyramid debate
-- 03 — Error handling strategies
-- 04 — Observability mindset
-- 05 — Code review as design
-- 06 — Feature flags & continuous delivery
-- 07 — Technical debt as risk management
-- 08 — JS build tools landscape
-- 09 — Indexes & query plans
-- 10 — Concurrency mental models
-- 11 — Terminal workflow
-- 12 — Containerization mental model (Docker vs VMs, image layers, the 12-factor angle)
-- 13 — Shape Up vs Scrum vs XP vs Kanban (what each gets right)
+- 03 — The test pyramid debate
+- 04 — Error handling strategies
+- 05 — Observability mindset
+- 06 — Code review as design
+- 07 — Feature flags & continuous delivery
+- 08 — Technical debt as risk management
+- 09 — Coupling vs cohesion (the two-axis lens)
+- 10 — Naming and the cost of premature abstraction
+- 11 — Idempotency and at-least-once thinking
+- 12 — Blameless postmortems and incident response
+- 13 — Trunk-based development vs GitFlow
+- 14 — Modular monolith vs microservices
+- 15 — Evolutionary architecture (Fowler)
+- 16 — Writing RFCs / design docs
+- 17 — Estimation under uncertainty
+- 18 — JS build tools landscape
+- 19 — Indexes & query plans
+- 20 — Concurrency mental models
+- 21 — Terminal workflow
+- 22 — Containerization mental model (Docker vs VMs, image layers, the 12-factor angle)
+- 23 — Shape Up vs Scrum vs XP vs Kanban (what each gets right)
 
 ### MLOps backlog
 - 02 — Experiment tracking (MLflow, W&B, the cheap-and-cheerful CSV approach)
