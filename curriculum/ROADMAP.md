@@ -183,6 +183,7 @@ These are the "big idea" topics. Each is a 1500-3000 word read with discussion p
 ### Already seeded
 - `software-engineering/01-agile-fundamentals.md`
 - `software-engineering/02-senior-engineer-mindset.md`
+- `software-engineering/05-devops-mindset.md`
 - `mlops/01-mlops-mindset.md`
 
 ### Software-engineering backlog
